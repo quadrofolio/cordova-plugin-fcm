@@ -1,7 +1,14 @@
 # Google Firebase Cloud Messaging Cordova Push Plugin
 > Extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.
 
->[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VF654BMGUPQTJ)
+#### Update to original plugin by me
+* Adding support for all Android notification types:
+    * BigText: is multi-line notification (when there is room in pull-down drawer) __DONE__
+    * BigPicture: show image in notification __TODO__
+    * Inbox Notification: show multi-line notification inboxstyle __TODO__
+    * Timed Notification: show timed (calendered) notification __TODO__
+    
+See [for a complete overview of all Android notification types](http://www.brevitysoftware.com/blog/different-types-of-notification-android/)
 
 #### Version 2.1.1 (18/01/2017)
 - Tested on Android and iOS using Cordova cli 6.4.0, Cordova android 6.0.0 and Cordova ios 4.3.1
